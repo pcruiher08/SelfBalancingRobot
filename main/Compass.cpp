@@ -7,8 +7,7 @@
 #include "Compass.h"
 
 
-Compass::Compass(){
-  
+Compass::Compass(){  
 }
 
 void Compass::initialize(){

@@ -112,7 +112,7 @@ void Stepper::stepMotor(int thisStep){
         digitalWrite(motor_pin_1, HIGH);
         digitalWrite(motor_pin_2, LOW);
       break;
-      case 3:  // 00
+      case 3:  //00
         digitalWrite(motor_pin_1, LOW);
         digitalWrite(motor_pin_2, LOW);
       break;

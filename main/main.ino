@@ -1,7 +1,6 @@
 #include <Stepper.h>
 
 #define PASOS 100
-
 Stepper stepper(PASOS, 8, 9, 10, 11);
 
 int previous = 0;
@@ -11,7 +10,7 @@ void setup(){
 }
 
 void loop() {
-  int val = analogRead(0);
+  int val = 10;
   stepper.step(val - previous);
   previous = val;
 }

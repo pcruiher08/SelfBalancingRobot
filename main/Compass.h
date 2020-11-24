@@ -19,7 +19,6 @@ public:
   
 private:
   QMC5883L compass;
-
 };
 
 #endif
