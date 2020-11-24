@@ -2,6 +2,8 @@
 #define Stepper_h
 
 
+//Pablo C. Ruiz
+
 class Stepper {
   public:
     Stepper(int number_of_steps, int motor_pin_1, int motor_pin_2);

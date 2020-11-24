@@ -1,6 +1,8 @@
 #include "Arduino.h"
 #include "Stepper.h"
 
+//Pablo C. Ruiz
+
 Stepper::Stepper(int number_of_steps, int motor_pin_1, int motor_pin_2){
   this->step_number = 0;
   this->direction = 0;
