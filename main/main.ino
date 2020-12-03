@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 #define PIN 12
-#define NUM_LEDS 24   // set to an even number
-#define MIRROR 12     // set to 1/2 of the LED count
+#define NUM_LEDS 16   // set to an even number
+#define MIRROR 8     // set to 1/2 of the LED count
 #define SPARKLES_PERCENTAGE 20 
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = pin number (most are valid)
